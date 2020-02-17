@@ -43,8 +43,6 @@ function deathAlert(vrag) {
     level++;
     spawnEnemy(enemydata[level]);
     money += vrag.gold;
-    attackButton.onclick = undefined;
-    superAttackButton.onclick = undefined;
   }
 }
 spawnEnemy(enemydata[level]);
